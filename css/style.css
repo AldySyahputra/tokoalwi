@@ -1,0 +1,162 @@
+.warna1 {
+  background-color: #876445;
+}
+
+.warna2 {
+  background-color: #ca965c;
+}
+
+.warna3 {
+  background-color: #dadada;
+}
+
+.warna4 {
+  background-color: #f4dfba;
+}
+
+.highlighted-kategori {
+  height: 250px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.kategori-minuman {
+  background: url(../foto_produk/Susu\ ultra\ UHT.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-minyak {
+  background: url(../foto_produk/Tropical\ besar.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-terigu {
+  background: url(../foto_produk/Beras.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.highlighted-kategori {
+  text-decoration: none;
+}
+
+.kategori-perempuan {
+  color: #fff;
+  background-position: center;
+}
+
+.tentangkami-banner {
+  height: 60vh;
+  background: url(../banner/background_tentangkami.png) no-repeat;
+  background-size: cover;
+}
+
+.tentangkami-banner1 {
+  height: 60vh;
+  background: url(../banner/background_tentangkami.png) no-repeat;
+  background-size: cover;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.profile-header h2 {
+  margin: 0;
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-section p {
+  margin: 0;
+  color: #666;
+}
+
+.profile-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-section a:hover {
+  text-decoration: underline;
+}
+
+.eceran-foto img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.navbar-nav > li {
+  margin-right: 10px; /* Kurangi margin antar item navbar */
+}
+
+.navbar-form {
+  margin: 0; /* Hilangkan margin pada form search */
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding: 10px 10px; /* Kurangi padding pada link navbar */
+}
+
+.navbar-default .navbar-form .form-control {
+  width: 100px; /* Atur lebar search bar */
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black; /* Ubah warna teks menjadi hitam */
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #03ac0e; /* Ubah warna teks menjadi hitam saat hover atau fokus */
+}
+
+.navbar-default .navbar-brand {
+  color: black; /* Ubah warna teks brand menjadi hitam */
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: black; /* Ubah warna teks brand menjadi hitam saat hover atau fokus */
+}
+
+.navbar-brand-custom {
+  background-color: #05dcf8; /* Warna latar belakang khusus */
+  padding: 5px 10px; /* Padding untuk memberikan ruang di sekitar logo */
+  border-radius: 5px; /* Opsional: untuk membuat sudut membulat */
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
